@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD32A9842767D77800267061 /* hw7_Berlin_ClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD32A9832767D77800267061 /* hw7_Berlin_ClockApp.swift */; };
+		DD32A9862767D77900267061 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD32A9852767D77900267061 /* ContentView.swift */; };
+		DD32A9882767D77900267061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD32A9872767D77900267061 /* Assets.xcassets */; };
+		DD32A98B2767D77900267061 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD32A98A2767D77900267061 /* Preview Assets.xcassets */; };
+		DD32A9952767D77900267061 /* hw7_Berlin_ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD32A9942767D77900267061 /* hw7_Berlin_ClockTests.swift */; };
+		DD32A99F2767D77900267061 /* hw7_Berlin_ClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD32A99E2767D77900267061 /* hw7_Berlin_ClockUITests.swift */; };
+		DD32A9A12767D77900267061 /* hw7_Berlin_ClockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD32A9A02767D77900267061 /* hw7_Berlin_ClockUITestsLaunchTests.swift */; };
+		DD32A9AE2767E71200267061 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD32A9AD2767E71200267061 /* Colors.swift */; };
+		DD4711B727688CF90007C5DF /* BerlinClockLogicFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4711B627688CF90007C5DF /* BerlinClockLogicFunctions.swift */; };
+		DD4711BB2768C28A0007C5DF /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4711BA2768C28A0007C5DF /* Structs.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD32A9912767D77900267061 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD32A9782767D77800267061 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD32A97F2767D77800267061;
+			remoteInfo = "hw7 Berlin Clock";
+		};
+		DD32A99B2767D77900267061 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD32A9782767D77800267061 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD32A97F2767D77800267061;
+			remoteInfo = "hw7 Berlin Clock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD32A9802767D77800267061 /* hw7 Berlin Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hw7 Berlin Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD32A9832767D77800267061 /* hw7_Berlin_ClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw7_Berlin_ClockApp.swift; sourceTree = "<group>"; };
+		DD32A9852767D77900267061 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD32A9872767D77900267061 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD32A98A2767D77900267061 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD32A9902767D77900267061 /* hw7 Berlin ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hw7 Berlin ClockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD32A9942767D77900267061 /* hw7_Berlin_ClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw7_Berlin_ClockTests.swift; sourceTree = "<group>"; };
+		DD32A99A2767D77900267061 /* hw7 Berlin ClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hw7 Berlin ClockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD32A99E2767D77900267061 /* hw7_Berlin_ClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw7_Berlin_ClockUITests.swift; sourceTree = "<group>"; };
+		DD32A9A02767D77900267061 /* hw7_Berlin_ClockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw7_Berlin_ClockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD32A9AD2767E71200267061 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		DD4711B627688CF90007C5DF /* BerlinClockLogicFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerlinClockLogicFunctions.swift; sourceTree = "<group>"; };
+		DD4711BA2768C28A0007C5DF /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD32A97D2767D77800267061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD32A98D2767D77900267061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD32A9972767D77900267061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD32A9772767D77800267061 = {
+			isa = PBXGroup;
+			children = (
+				DD32A9822767D77800267061 /* hw7 Berlin Clock */,
+				DD32A9932767D77900267061 /* hw7 Berlin ClockTests */,
+				DD32A99D2767D77900267061 /* hw7 Berlin ClockUITests */,
+				DD32A9812767D77800267061 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD32A9812767D77800267061 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD32A9802767D77800267061 /* hw7 Berlin Clock.app */,
+				DD32A9902767D77900267061 /* hw7 Berlin ClockTests.xctest */,
+				DD32A99A2767D77900267061 /* hw7 Berlin ClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD32A9822767D77800267061 /* hw7 Berlin Clock */ = {
+			isa = PBXGroup;
+			children = (
+				DD32A9832767D77800267061 /* hw7_Berlin_ClockApp.swift */,
+				DD32A9852767D77900267061 /* ContentView.swift */,
+				DD32A9892767D77900267061 /* Preview Content */,
+				DD32A9872767D77900267061 /* Assets.xcassets */,
+				DD4711BA2768C28A0007C5DF /* Structs.swift */,
+				DD32A9AD2767E71200267061 /* Colors.swift */,
+				DD4711B627688CF90007C5DF /* BerlinClockLogicFunctions.swift */,
+			);
+			path = "hw7 Berlin Clock";
+			sourceTree = "<group>";
+		};
+		DD32A9892767D77900267061 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD32A98A2767D77900267061 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD32A9932767D77900267061 /* hw7 Berlin ClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD32A9942767D77900267061 /* hw7_Berlin_ClockTests.swift */,
+			);
+			path = "hw7 Berlin ClockTests";
+			sourceTree = "<group>";
+		};
+		DD32A99D2767D77900267061 /* hw7 Berlin ClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD32A99E2767D77900267061 /* hw7_Berlin_ClockUITests.swift */,
+				DD32A9A02767D77900267061 /* hw7_Berlin_ClockUITestsLaunchTests.swift */,
+			);
+			path = "hw7 Berlin ClockUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD32A97F2767D77800267061 /* hw7 Berlin Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD32A9A42767D77900267061 /* Build configuration list for PBXNativeTarget "hw7 Berlin Clock" */;
+			buildPhases = (
+				DD32A97C2767D77800267061 /* Sources */,
+				DD32A97D2767D77800267061 /* Frameworks */,
+				DD32A97E2767D77800267061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hw7 Berlin Clock";
+			productName = "hw7 Berlin Clock";
+			productReference = DD32A9802767D77800267061 /* hw7 Berlin Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD32A98F2767D77900267061 /* hw7 Berlin ClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD32A9A72767D77900267061 /* Build configuration list for PBXNativeTarget "hw7 Berlin ClockTests" */;
+			buildPhases = (
+				DD32A98C2767D77900267061 /* Sources */,
+				DD32A98D2767D77900267061 /* Frameworks */,
+				DD32A98E2767D77900267061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD32A9922767D77900267061 /* PBXTargetDependency */,
+			);
+			name = "hw7 Berlin ClockTests";
+			productName = "hw7 Berlin ClockTests";
+			productReference = DD32A9902767D77900267061 /* hw7 Berlin ClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD32A9992767D77900267061 /* hw7 Berlin ClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD32A9AA2767D77900267061 /* Build configuration list for PBXNativeTarget "hw7 Berlin ClockUITests" */;
+			buildPhases = (
+				DD32A9962767D77900267061 /* Sources */,
+				DD32A9972767D77900267061 /* Frameworks */,
+				DD32A9982767D77900267061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD32A99C2767D77900267061 /* PBXTargetDependency */,
+			);
+			name = "hw7 Berlin ClockUITests";
+			productName = "hw7 Berlin ClockUITests";
+			productReference = DD32A99A2767D77900267061 /* hw7 Berlin ClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD32A9782767D77800267061 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					DD32A97F2767D77800267061 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					DD32A98F2767D77900267061 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = DD32A97F2767D77800267061;
+					};
+					DD32A9992767D77900267061 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = DD32A97F2767D77800267061;
+					};
+				};
+			};
+			buildConfigurationList = DD32A97B2767D77800267061 /* Build configuration list for PBXProject "hw7 Berlin Clock" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD32A9772767D77800267061;
+			productRefGroup = DD32A9812767D77800267061 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD32A97F2767D77800267061 /* hw7 Berlin Clock */,
+				DD32A98F2767D77900267061 /* hw7 Berlin ClockTests */,
+				DD32A9992767D77900267061 /* hw7 Berlin ClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD32A97E2767D77800267061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD32A98B2767D77900267061 /* Preview Assets.xcassets in Resources */,
+				DD32A9882767D77900267061 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD32A98E2767D77900267061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD32A9982767D77900267061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD32A97C2767D77800267061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD32A9862767D77900267061 /* ContentView.swift in Sources */,
+				DD32A9AE2767E71200267061 /* Colors.swift in Sources */,
+				DD4711BB2768C28A0007C5DF /* Structs.swift in Sources */,
+				DD32A9842767D77800267061 /* hw7_Berlin_ClockApp.swift in Sources */,
+				DD4711B727688CF90007C5DF /* BerlinClockLogicFunctions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD32A98C2767D77900267061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD32A9952767D77900267061 /* hw7_Berlin_ClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD32A9962767D77900267061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD32A9A12767D77900267061 /* hw7_Berlin_ClockUITestsLaunchTests.swift in Sources */,
+				DD32A99F2767D77900267061 /* hw7_Berlin_ClockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD32A9922767D77900267061 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD32A97F2767D77800267061 /* hw7 Berlin Clock */;
+			targetProxy = DD32A9912767D77900267061 /* PBXContainerItemProxy */;
+		};
+		DD32A99C2767D77900267061 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD32A97F2767D77800267061 /* hw7 Berlin Clock */;
+			targetProxy = DD32A99B2767D77900267061 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD32A9A22767D77900267061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD32A9A32767D77900267061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD32A9A52767D77900267061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hw7 Berlin Clock/Preview Content\"";
+				DEVELOPMENT_TEAM = 4ZY2P6T65K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leyla.hw7-Berlin-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD32A9A62767D77900267061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hw7 Berlin Clock/Preview Content\"";
+				DEVELOPMENT_TEAM = 4ZY2P6T65K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leyla.hw7-Berlin-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD32A9A82767D77900267061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZY2P6T65K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leyla.hw7-Berlin-ClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hw7 Berlin Clock.app/hw7 Berlin Clock";
+			};
+			name = Debug;
+		};
+		DD32A9A92767D77900267061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZY2P6T65K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leyla.hw7-Berlin-ClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hw7 Berlin Clock.app/hw7 Berlin Clock";
+			};
+			name = Release;
+		};
+		DD32A9AB2767D77900267061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZY2P6T65K;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leyla.hw7-Berlin-ClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hw7 Berlin Clock";
+			};
+			name = Debug;
+		};
+		DD32A9AC2767D77900267061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZY2P6T65K;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leyla.hw7-Berlin-ClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hw7 Berlin Clock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD32A97B2767D77800267061 /* Build configuration list for PBXProject "hw7 Berlin Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD32A9A22767D77900267061 /* Debug */,
+				DD32A9A32767D77900267061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD32A9A42767D77900267061 /* Build configuration list for PBXNativeTarget "hw7 Berlin Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD32A9A52767D77900267061 /* Debug */,
+				DD32A9A62767D77900267061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD32A9A72767D77900267061 /* Build configuration list for PBXNativeTarget "hw7 Berlin ClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD32A9A82767D77900267061 /* Debug */,
+				DD32A9A92767D77900267061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD32A9AA2767D77900267061 /* Build configuration list for PBXNativeTarget "hw7 Berlin ClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD32A9AB2767D77900267061 /* Debug */,
+				DD32A9AC2767D77900267061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD32A9782767D77800267061 /* Project object */;
+}
